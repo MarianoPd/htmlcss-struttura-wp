@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+.container{
+    width: 80%;  
+    margin: auto;  
+    margin-top: 20px;
+}
+
+.header, .jumbotron{
+    margin-bottom: 20px;
+}
+
+.header{
+    background-color: plum;
+    min-height: 50px;    
+}
+
+.jumbotron{
+    background-color: sandybrown;
+    min-height: 300px;
+}
+
+main{
+    background-color: steelblue;
+}
+
+
+main  *{
+    background-color: turquoise; 
+    margin-bottom: 10px;   
+}
+
+.title{
+    height: 50px;
+
+}
+.content{
+    background-color: steelblue;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.content > *{
+    float:left;
+    min-height: 400px;
+}
+
+.side{
+    width: 19%;
+}
+
+.center{
+    width: 60%;
+    margin: 0 1%;
+}
+
+
+
+
+
+footer{
+    background-color: slateblue;
+    min-height: 20px;
+}
